@@ -1,7 +1,7 @@
 .btn-medium {
   font-family: $headers-font;
-  color: #999999;
-  border: 1px solid #999999;
+  color: $blue;
+  border: 1px solid $blue;
   padding: 10px 15px;
   border-radius: 50px;
   font-weight: lighter;
@@ -11,7 +11,7 @@
   font-family: $headers-font;
   opacity: 1;
   text-decoration: none;
-  color: #999999;
+  color: $blue;
 }
 .btn-treehouse {
   font-family: $headers-font;
@@ -19,15 +19,16 @@
   padding: 10px 15px;
   border-radius: 4px;
   font-weight: bold;
-  background: #6AD58B;
+  background: $blue;
   transition: background 0.3s ease;
 }
 .btn-treehouse:hover {
   font-family: $headers-font;
+  border: 2px solid $blue;
   opacity: 1;
-  background: #3ac162;
+  background: white;
   text-decoration: none;
-  color: white;
+  color: $blue;
 }
 
 /* Build your own button classes ! */
