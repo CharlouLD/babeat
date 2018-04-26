@@ -1,4 +1,5 @@
 .btn-medium {
+  font-family: $headers-font;
   color: #999999;
   border: 1px solid #999999;
   padding: 10px 15px;
@@ -7,11 +8,13 @@
   opacity: 0.6;
 }
 .btn-medium:hover {
+  font-family: $headers-font;
   opacity: 1;
   text-decoration: none;
   color: #999999;
 }
 .btn-treehouse {
+  font-family: $headers-font;
   color: white;
   padding: 10px 15px;
   border-radius: 4px;
@@ -20,6 +23,7 @@
   transition: background 0.3s ease;
 }
 .btn-treehouse:hover {
+  font-family: $headers-font;
   opacity: 1;
   background: #3ac162;
   text-decoration: none;
